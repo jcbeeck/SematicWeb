@@ -1,6 +1,6 @@
 /**
 * The RDFModel creates an RDF document using two tables in MySQL. 
-* Prerequisites: add the Jena API library and the MySQL connector to the project.
+* Prerequisites: Add the Jena API library and the MySQL connector to the project.
 * Output: rdf_name.rdf
 * Input: Two tables with the IRIs from an ontology and its properties.
 * 
@@ -80,7 +80,7 @@ public class RDFModel
 		   
 		   //first loop. 
 		   //It is 1000 because is the second model
-		   //Iter starts with the first id.
+		   //Iter starts with the first id of the model.
 		   for (iter = 1000 ; iter <= total_nodes  + 10000  ; iter++)
 		   {
 			   String id = Integer.toString(iter); //node id
