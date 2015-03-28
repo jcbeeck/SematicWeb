@@ -1,5 +1,5 @@
 /**
-* The Match package reads two RDF documents and a text file; 
+* The Match class reads two RDF documents and a text file; 
 * It also retrieves and match the words from the text file and the RDFs through SPARQL queries.  
 * Prerequisites: add the Jena API library to the project.
 * Output: Matched concepts.
