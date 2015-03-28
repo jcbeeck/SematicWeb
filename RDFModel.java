@@ -2,7 +2,7 @@
 * The RDFModel creates an RDF document using two tables in MySQL. 
 * Prerequisites: add the Jena API library and the MySQL connector to the project.
 * Output: rdf_name.rdf
-* Input: Two tables with the IRI from an ontology and its properties.
+* Input: Two tables with the IRIs from an ontology and its properties.
 * 
 * rdf_node:Table
 * node_id INT PK
