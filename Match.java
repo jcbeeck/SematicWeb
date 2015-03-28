@@ -121,11 +121,11 @@ public class Match {
 			 
 		//Find #symptomName in the ontology.
 		String queryString = "PREFIX j.0:<http://www.semanticweb.org/jan/ontologies/2014/5/asthma#>" +
-							  "PREFIX j.1:<http://purl.org/dc/terms/>" +
-						      		"SELECT *" +
-						           		"WHERE {" +
-						           					"?x j.0:symptomName ?symptomName" + "." +
-						                       "}";
+				      "PREFIX j.1:<http://purl.org/dc/terms/>" +
+				      "SELECT *" +
+				       		"WHERE {" +
+						          "?x j.0:symptomName ?symptomName" + "." +
+						"}";
 			 
 		Query query = QueryFactory.create(queryString);
 		// Execute the query and obtain results
@@ -147,11 +147,11 @@ public class Match {
 		
 		//Find #symptomDescription in the ontology.
 		String queryString1 = "PREFIX j.0:<http://www.semanticweb.org/jan/ontologies/2014/5/asthma#>" +
-							   "PREFIX j.1:<http://purl.org/dc/terms/>" +
-							    	"SELECT *" +
-								     	"WHERE {" +
-								           			"?x j.0:symptomDescription ?symptomDescription" + "." +
-								              "}";
+				      "PREFIX j.1:<http://purl.org/dc/terms/>" +
+					"SELECT *" +
+						"WHERE {" +
+							"?x j.0:symptomDescription ?symptomDescription" + "." +
+						"}";
 					 
 		Query query1 = QueryFactory.create(queryString1);
 		// Execute the query and obtain results
@@ -170,11 +170,11 @@ public class Match {
 		
 		//Find #allergyName in the ontology.
 		String queryString2 = "PREFIX j.0:<http://www.semanticweb.org/jan/ontologies/2014/5/asthma#>" +
-				   			  "PREFIX j.1:<http://purl.org/dc/terms/>" +
-				   			  	"SELECT *" +
-				   			  		"WHERE {" +
-					           					"?x j.0:allergyName ?allergyName" + "." +
-					           			   "}";
+				       "PREFIX j.1:<http://purl.org/dc/terms/>" +
+				         "SELECT *" +
+				   		"WHERE {" +
+					           	"?x j.0:allergyName ?allergyName" + "." +
+					         "}";
 							 
 	    Query query2 = QueryFactory.create(queryString2);
 		// Execute the query and obtain results
@@ -216,11 +216,11 @@ public class Match {
 				 
 		//Find #interventionName in the ontology.
 		String queryString = "PREFIX j.0:<http://www.semanticweb.org/jan/ontologies/2014/5/asthma#>" +
-								  "PREFIX j.1:<http://purl.org/dc/terms/>" +
-							      		"SELECT *" +
-							           		"WHERE {" +
-							           					"?x j.0:interventionName ?interventionName" + "." +
-							                       "}";
+				     "PREFIX j.1:<http://purl.org/dc/terms/>" +
+				     	"SELECT *" +
+				        	"WHERE {" +
+							 "?x j.0:interventionName ?interventionName" + "." +
+						"}";
 				 
 		Query query = QueryFactory.create(queryString);
 		// Execute the query and obtain results
@@ -242,11 +242,11 @@ public class Match {
 			
 		//Find #interventionDescription in the ontology.
 		String queryString1 = "PREFIX j.0:<http://www.semanticweb.org/jan/ontologies/2014/5/asthma#>" +
-								   "PREFIX j.1:<http://purl.org/dc/terms/>" +
-								    	"SELECT *" +
-									     	"WHERE {" +
-									           			"?x j.0:interventionDescription ?interventionDescription" + "." +
-									              "}";
+	                              "PREFIX j.1:<http://purl.org/dc/terms/>" +
+				       "SELECT *" +
+					   "WHERE {" +
+						 "?x j.0:interventionDescription ?interventionDescription" + "." +
+				           "}";
 						 
 		Query query1 = QueryFactory.create(queryString1);
 		// Execute the query and obtain results
@@ -265,11 +265,11 @@ public class Match {
 			
 		//Find #testName in the ontology.
 		String queryString2 = "PREFIX j.0:<http://www.semanticweb.org/jan/ontologies/2014/5/asthma#>" +
-					   			  "PREFIX j.1:<http://purl.org/dc/terms/>" +
-					   			  	"SELECT *" +
-					   			  		"WHERE {" +
-						           					"?x j.0:testName ?testName" + "." +
-						           			   "}";
+				       "PREFIX j.1:<http://purl.org/dc/terms/>" +
+					"SELECT *" +
+					 	"WHERE {" +
+						 	"?x j.0:testName ?testName" + "." +
+						 "}";
 								 
 		 Query query2 = QueryFactory.create(queryString2);
 		// Execute the query and obtain results
@@ -302,7 +302,7 @@ public class Match {
 		{
 			for(int j= 0; j < ontologyTokens.size(); j++)
 			{
-				boolean match = ontologyTokens.get(j).toLowerCase().contains(inputTokens.get(i).toLowerCase());
+			   boolean match = ontologyTokens.get(j).toLowerCase().contains(inputTokens.get(i).toLowerCase());
 				if (match) {
 					matchedTokens.add(ontologyTokens.get(j));
 				}
@@ -325,7 +325,8 @@ public class Match {
 	
 	//Step7: 
 	//Match the queryProblems and queryIntervention with a PARQL query; and show related URLs.
-	public static List<String> retrieveRDFInformation(List<String> problems, List<String> interventions, List<String> queryPedro) throws IOException
+	public static List<String> retrieveRDFInformation(List<String> problems, List<String> interventions, 
+						          List<String> queryPedro) throws IOException
 	{
 		String inputRDFfile  = "evidences.rdf";
 		
@@ -351,12 +352,12 @@ public class Match {
 		    		"PREFIX j.1:<http://www.semanticweb.org/jan/ontologies/2014/5/evidences#>" +
 		   	        "PREFIX j.0:<http://purl.org/dc/terms/>" +
 		   	        	"SELECT *" +
-		                  "WHERE {" +
+		                  		"WHERE {" +
 					                  "?node j.1:queryProblem ?value." +
-			                          "?node j.1:queryProblem ?queryProblem." + 
-			                          //"?node j.0:title ?title." + 
-			                          "?node j.1:evidenceURL ?url ." + 
-		                        "}" );
+			                          	  "?node j.1:queryProblem ?queryProblem." + 
+			                                   //"?node j.0:title ?title." + 
+			                                   "?node j.1:evidenceURL ?url ." + 
+		                           "}" );
 		    queryString.setIri("?value", term_to_find);
 		    
 		    String newStringQuery = bindVariableInQuery(queryString, term_to_find);
@@ -379,11 +380,11 @@ public class Match {
 		    		"PREFIX j.1:<http://www.semanticweb.org/jan/ontologies/2014/5/evidences#>" +
 		   	        "PREFIX j.0:<http://purl.org/dc/terms/>" +
 		   	        	"SELECT *" +
-		                  "WHERE {" +
-		                             "?node j.1:queryIntervention ?value." +
-		                             "?node j.1:queryIntervention ?queryIntervention." + 
-		                             //"?node j.0:title ?title." + 
-		                             "?node j.1:evidenceURL ?url ." + 
+		                  		"WHERE {" +
+		                             		"?node j.1:queryIntervention ?value." +
+		                             		"?node j.1:queryIntervention ?queryIntervention." + 
+		                        		 //"?node j.0:title ?title." + 
+		                             		"?node j.1:evidenceURL ?url ." + 
 		                        "}" );
 		    queryString.setIri("?value", term_to_find);
 		    
@@ -407,11 +408,11 @@ public class Match {
 		    		"PREFIX j.1:<http://www.semanticweb.org/jan/ontologies/2014/5/evidences#>" +
 		   	        "PREFIX j.0:<http://purl.org/dc/terms/>" +
 		   	        	"SELECT *" +
-		                  "WHERE {" +
-		                             "?node j.1:queryString ?value." +
-		                             "?node j.1:queryString ?queryString." + 
-		                             //"?node j.0:title ?title." + 
-		                             "?node j.1:evidenceURL ?url ." + 
+		                  		"WHERE {" +
+		                        		 "?node j.1:queryString ?value." +
+		                             		 "?node j.1:queryString ?queryString." + 
+		                        	          //"?node j.0:title ?title." + 
+		                                         "?node j.1:evidenceURL ?url ." + 
 		                        "}" );
 		    queryString.setIri("?value", term_to_find);
 		    
@@ -527,10 +528,14 @@ public class Match {
 		 //List<String> final_matched_tokens = matchWithOntology(final_ontology_tokens, final_tokens_list);
 		 List<String> final_string_problems_tokens = findProblemTokens();
 		 List<String> final_string_intervention_tokens = findInterventionTokens();
-		 List<String> final_matched_problems_tokens = matchInputWithOntology(final_input_tokens_list, final_string_problems_tokens);
-		 List<String> final_matched_interventions_tokens = matchInputWithOntology(final_input_tokens_list, final_string_intervention_tokens);
-		 List<String> final_queryString_tokens = findMatchedforPEDRO(final_matched_problems_tokens,final_matched_interventions_tokens);
-		 List<String> final_retrieved_list = retrieveRDFInformation(final_matched_problems_tokens, final_matched_interventions_tokens, final_queryString_tokens);
+		 List<String> final_matched_problems_tokens = matchInputWithOntology(final_input_tokens_list, 
+		                                              final_string_problems_tokens);
+		 List<String> final_matched_interventions_tokens = matchInputWithOntology(final_input_tokens_list, 
+		                                                   final_string_intervention_tokens);
+		 List<String> final_queryString_tokens = findMatchedforPEDRO(final_matched_problems_tokens,
+		                                         final_matched_interventions_tokens);
+		 List<String> final_retrieved_list = retrieveRDFInformation(final_matched_problems_tokens, 
+		                                     final_matched_interventions_tokens, final_queryString_tokens);
 		
 		 for(int i = 0; i < final_input_tokens_list.size(); i++)
 	     {
