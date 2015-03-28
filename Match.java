@@ -45,7 +45,7 @@ import com.hp.hpl.jena.rdf.model.*;
 import com.hp.hpl.jena.util.FileManager;
 import com.hp.hpl.jena.vocabulary.*;
 
-public class ReadText {
+public class Match {
 
 	
 	//Step1: Tokenize
