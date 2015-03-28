@@ -80,6 +80,7 @@ public class RDFModel
 		   
 		   //first loop. 
 		   //It is 1000 because is the second model
+		   //Iter starts with the first id.
 		   for (iter = 1000 ; iter <= total_nodes  + 10000  ; iter++)
 		   {
 			   String id = Integer.toString(iter); //node id
