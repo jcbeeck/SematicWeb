@@ -1,0 +1,436 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/jan/ontologies/2014/5/untitled-ontology-36#"
+     xml:base="http://www.semanticweb.org/jan/ontologies/2014/5/untitled-ontology-36"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/jan/ontologies/2014/5/evidence"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/jan/ontologies/2014/5/evidence#belong -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jan/ontologies/2014/5/evidence#belong">
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&owl;topObjectProperty"/>
+                <owl:someValuesFrom rdf:resource="&owl;Thing"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&owl;topObjectProperty"/>
+                <owl:someValuesFrom rdf:resource="&owl;Thing"/>
+            </owl:Restriction>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jan/ontologies/2014/5/evidence#has -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jan/ontologies/2014/5/evidence#has">
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&owl;topObjectProperty"/>
+                <owl:someValuesFrom rdf:resource="&owl;Thing"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&owl;topObjectProperty"/>
+                <owl:someValuesFrom rdf:resource="&owl;Thing"/>
+            </owl:Restriction>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jan/ontologies/2014/5/evidence#is -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jan/ontologies/2014/5/evidence#is">
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&owl;topObjectProperty"/>
+                <owl:someValuesFrom rdf:resource="&owl;Thing"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&owl;topObjectProperty"/>
+                <owl:someValuesFrom rdf:resource="&owl;Thing"/>
+            </owl:Restriction>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jan/ontologies/2014/5/evidence#link -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jan/ontologies/2014/5/evidence#link">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&owl;topObjectProperty"/>
+                <owl:someValuesFrom rdf:resource="&owl;Thing"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&owl;topObjectProperty"/>
+                <owl:someValuesFrom rdf:resource="&owl;Thing"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/jan/ontologies/2014/5/evidence#databaseName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jan/ontologies/2014/5/evidence#databaseName">
+        <rdfs:range rdf:resource="&xsd;string"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&owl;topObjectProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jan/ontologies/2014/5/evidence#Database"/>
+            </owl:Restriction>
+        </rdfs:domain>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jan/ontologies/2014/5/evidence#databaseType -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jan/ontologies/2014/5/evidence#databaseType">
+        <rdfs:range rdf:resource="&xsd;string"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&owl;topObjectProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jan/ontologies/2014/5/evidence#Database"/>
+            </owl:Restriction>
+        </rdfs:domain>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jan/ontologies/2014/5/evidence#databaseURL -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jan/ontologies/2014/5/evidence#databaseURL">
+        <rdfs:range rdf:resource="&xsd;string"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&owl;topObjectProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jan/ontologies/2014/5/evidence#Database"/>
+            </owl:Restriction>
+        </rdfs:domain>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jan/ontologies/2014/5/evidence#evidenceDOI -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jan/ontologies/2014/5/evidence#evidenceDOI">
+        <rdfs:range rdf:resource="&xsd;string"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&owl;topObjectProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jan/ontologies/2014/5/evidence#Evidence"/>
+            </owl:Restriction>
+        </rdfs:domain>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jan/ontologies/2014/5/evidence#evidencePedroID -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jan/ontologies/2014/5/evidence#evidencePedroID">
+        <rdfs:range rdf:resource="&xsd;integer"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&owl;topObjectProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jan/ontologies/2014/5/evidence#Evidence"/>
+            </owl:Restriction>
+        </rdfs:domain>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jan/ontologies/2014/5/evidence#evidencePubmedID -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jan/ontologies/2014/5/evidence#evidencePubmedID">
+        <rdfs:range rdf:resource="&xsd;integer"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&owl;topObjectProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jan/ontologies/2014/5/evidence#Evidence"/>
+            </owl:Restriction>
+        </rdfs:domain>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jan/ontologies/2014/5/evidence#evidenceURL -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jan/ontologies/2014/5/evidence#evidenceURL">
+        <rdfs:range rdf:resource="&xsd;string"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&owl;topObjectProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jan/ontologies/2014/5/evidence#Evidence"/>
+            </owl:Restriction>
+        </rdfs:domain>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jan/ontologies/2014/5/evidence#journalInformation -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jan/ontologies/2014/5/evidence#journalInformation">
+        <rdfs:range rdf:resource="&xsd;string"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&owl;topObjectProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jan/ontologies/2014/5/evidence#Journal"/>
+            </owl:Restriction>
+        </rdfs:domain>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jan/ontologies/2014/5/evidence#journalName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jan/ontologies/2014/5/evidence#journalName">
+        <rdfs:range rdf:resource="&xsd;string"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&owl;topObjectProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jan/ontologies/2014/5/evidence#Journal"/>
+            </owl:Restriction>
+        </rdfs:domain>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jan/ontologies/2014/5/evidence#journalPage -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jan/ontologies/2014/5/evidence#journalPage">
+        <rdfs:range rdf:resource="&xsd;string"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&owl;topObjectProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jan/ontologies/2014/5/evidence#Journal"/>
+            </owl:Restriction>
+        </rdfs:domain>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jan/ontologies/2014/5/evidence#journalType -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jan/ontologies/2014/5/evidence#journalType">
+        <rdfs:range rdf:resource="&xsd;string"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&owl;topObjectProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jan/ontologies/2014/5/evidence#Journal"/>
+            </owl:Restriction>
+        </rdfs:domain>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jan/ontologies/2014/5/evidence#journalYear -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jan/ontologies/2014/5/evidence#journalYear">
+        <rdfs:range rdf:resource="&xsd;string"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&owl;topObjectProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jan/ontologies/2014/5/evidence#Journal"/>
+            </owl:Restriction>
+        </rdfs:domain>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jan/ontologies/2014/5/evidence#medicalCondition -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jan/ontologies/2014/5/evidence#medicalCondition">
+        <rdfs:range rdf:resource="&xsd;string"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&owl;topObjectProperty"/>
+                <owl:someValuesFrom rdf:resource="&owl;Thing"/>
+            </owl:Restriction>
+        </rdfs:domain>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jan/ontologies/2014/5/evidence#medicalIntervention -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jan/ontologies/2014/5/evidence#medicalIntervention">
+        <rdfs:range rdf:resource="&xsd;string"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&owl;topObjectProperty"/>
+                <owl:someValuesFrom rdf:resource="&owl;Thing"/>
+            </owl:Restriction>
+        </rdfs:domain>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jan/ontologies/2014/5/evidence#medicalProblem -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jan/ontologies/2014/5/evidence#medicalProblem">
+        <rdfs:range rdf:resource="&xsd;string"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&owl;topObjectProperty"/>
+                <owl:someValuesFrom rdf:resource="&owl;Thing"/>
+            </owl:Restriction>
+        </rdfs:domain>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jan/ontologies/2014/5/evidence#meshTerm -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jan/ontologies/2014/5/evidence#meshTerm">
+        <rdfs:range rdf:resource="&xsd;string"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&owl;topObjectProperty"/>
+                <owl:someValuesFrom rdf:resource="&owl;Thing"/>
+            </owl:Restriction>
+        </rdfs:domain>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jan/ontologies/2014/5/evidence#queryIntervention -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jan/ontologies/2014/5/evidence#queryIntervention">
+        <rdfs:range rdf:resource="&xsd;string"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&owl;topObjectProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jan/ontologies/2014/5/evidence#Database"/>
+            </owl:Restriction>
+        </rdfs:domain>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jan/ontologies/2014/5/evidence#queryProblem -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jan/ontologies/2014/5/evidence#queryProblem">
+        <rdfs:range rdf:resource="&xsd;string"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&owl;topObjectProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jan/ontologies/2014/5/evidence#Database"/>
+            </owl:Restriction>
+        </rdfs:domain>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jan/ontologies/2014/5/evidence#queryString -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jan/ontologies/2014/5/evidence#queryString">
+        <rdfs:range rdf:resource="&xsd;string"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&owl;topObjectProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jan/ontologies/2014/5/evidence#Database"/>
+            </owl:Restriction>
+        </rdfs:domain>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/jan/ontologies/2014/5/evidence#Database -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jan/ontologies/2014/5/evidence#Database"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jan/ontologies/2014/5/evidence#Evidence -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jan/ontologies/2014/5/evidence#Evidence"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jan/ontologies/2014/5/evidence#Journal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jan/ontologies/2014/5/evidence#Journal"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/jan/ontologies/2014/5/evidence#Database"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jan/ontologies/2014/5/evidence#Evidence"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jan/ontologies/2014/5/evidence#Journal"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
