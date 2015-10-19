@@ -1,0 +1,634 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <Ontology rdf:about="http://www.semanticweb.org/jan/ontologies/2014/5/asthma"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/jan/ontologies/2014/5/asthma#aka -->
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/jan/ontologies/2014/5/asthma#aka">
+        <rdfs:domain>
+            <Restriction>
+                <onProperty rdf:resource="&owl;topObjectProperty"/>
+                <someValuesFrom rdf:resource="&owl;Thing"/>
+            </Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <Restriction>
+                <onProperty rdf:resource="&owl;topObjectProperty"/>
+                <someValuesFrom rdf:resource="&owl;Thing"/>
+            </Restriction>
+        </rdfs:range>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jan/ontologies/2014/5/asthma#are -->
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/jan/ontologies/2014/5/asthma#are">
+        <rdfs:range>
+            <Restriction>
+                <onProperty rdf:resource="&owl;topObjectProperty"/>
+                <someValuesFrom rdf:resource="&owl;Thing"/>
+            </Restriction>
+        </rdfs:range>
+        <rdfs:domain>
+            <Restriction>
+                <onProperty rdf:resource="&owl;topObjectProperty"/>
+                <someValuesFrom rdf:resource="&owl;Thing"/>
+            </Restriction>
+        </rdfs:domain>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jan/ontologies/2014/5/asthma#avoid -->
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/jan/ontologies/2014/5/asthma#avoid">
+        <rdfs:domain>
+            <Restriction>
+                <onProperty rdf:resource="&owl;topObjectProperty"/>
+                <someValuesFrom rdf:resource="http://www.semanticweb.org/jan/ontologies/2014/5/asthma#Drug"/>
+            </Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <Restriction>
+                <onProperty rdf:resource="&owl;topObjectProperty"/>
+                <someValuesFrom rdf:resource="&owl;Thing"/>
+            </Restriction>
+        </rdfs:range>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jan/ontologies/2014/5/asthma#co-exist -->
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/jan/ontologies/2014/5/asthma#co-exist">
+        <rdfs:domain>
+            <Restriction>
+                <onProperty rdf:resource="&owl;topObjectProperty"/>
+                <someValuesFrom rdf:resource="http://www.semanticweb.org/jan/ontologies/2014/5/asthma#Allergy"/>
+            </Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <Restriction>
+                <onProperty rdf:resource="&owl;topObjectProperty"/>
+                <someValuesFrom rdf:resource="&owl;Thing"/>
+            </Restriction>
+        </rdfs:range>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jan/ontologies/2014/5/asthma#consider -->
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/jan/ontologies/2014/5/asthma#consider">
+        <rdfs:domain>
+            <Restriction>
+                <onProperty rdf:resource="&owl;topObjectProperty"/>
+                <someValuesFrom rdf:resource="&owl;Thing"/>
+            </Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <Restriction>
+                <onProperty rdf:resource="&owl;topObjectProperty"/>
+                <someValuesFrom rdf:resource="&owl;Thing"/>
+            </Restriction>
+        </rdfs:range>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jan/ontologies/2014/5/asthma#develop -->
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/jan/ontologies/2014/5/asthma#develop">
+        <rdfs:range>
+            <Restriction>
+                <onProperty rdf:resource="&owl;topObjectProperty"/>
+                <someValuesFrom rdf:resource="&owl;Thing"/>
+            </Restriction>
+        </rdfs:range>
+        <rdfs:domain>
+            <Restriction>
+                <onProperty rdf:resource="&owl;topObjectProperty"/>
+                <someValuesFrom rdf:resource="&owl;Thing"/>
+            </Restriction>
+        </rdfs:domain>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jan/ontologies/2014/5/asthma#diagnosis -->
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/jan/ontologies/2014/5/asthma#diagnosis">
+        <rdfs:domain>
+            <Restriction>
+                <onProperty rdf:resource="&owl;topObjectProperty"/>
+                <someValuesFrom rdf:resource="&owl;Thing"/>
+            </Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <Restriction>
+                <onProperty rdf:resource="&owl;topObjectProperty"/>
+                <someValuesFrom rdf:resource="&owl;Thing"/>
+            </Restriction>
+        </rdfs:range>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jan/ontologies/2014/5/asthma#focus -->
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/jan/ontologies/2014/5/asthma#focus">
+        <rdfs:domain>
+            <Restriction>
+                <onProperty rdf:resource="&owl;topObjectProperty"/>
+                <someValuesFrom rdf:resource="http://www.semanticweb.org/jan/ontologies/2014/5/asthma#DiagnosisTest"/>
+            </Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <Restriction>
+                <onProperty rdf:resource="&owl;topObjectProperty"/>
+                <someValuesFrom rdf:resource="&owl;Thing"/>
+            </Restriction>
+        </rdfs:range>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jan/ontologies/2014/5/asthma#has -->
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/jan/ontologies/2014/5/asthma#has">
+        <rdfs:domain>
+            <Restriction>
+                <onProperty rdf:resource="&owl;topObjectProperty"/>
+                <someValuesFrom rdf:resource="&owl;Thing"/>
+            </Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <Restriction>
+                <onProperty rdf:resource="&owl;topObjectProperty"/>
+                <someValuesFrom rdf:resource="&owl;Thing"/>
+            </Restriction>
+        </rdfs:range>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jan/ontologies/2014/5/asthma#have -->
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/jan/ontologies/2014/5/asthma#have">
+        <rdfs:domain>
+            <Restriction>
+                <onProperty rdf:resource="&owl;topObjectProperty"/>
+                <someValuesFrom rdf:resource="&owl;Thing"/>
+            </Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <Restriction>
+                <onProperty rdf:resource="&owl;topObjectProperty"/>
+                <someValuesFrom rdf:resource="&owl;Thing"/>
+            </Restriction>
+        </rdfs:range>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jan/ontologies/2014/5/asthma#include -->
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/jan/ontologies/2014/5/asthma#include">
+        <rdfs:range>
+            <Restriction>
+                <onProperty rdf:resource="&owl;topObjectProperty"/>
+                <someValuesFrom rdf:resource="&owl;Thing"/>
+            </Restriction>
+        </rdfs:range>
+        <rdfs:domain>
+            <Restriction>
+                <onProperty rdf:resource="&owl;topObjectProperty"/>
+                <someValuesFrom rdf:resource="&owl;Thing"/>
+            </Restriction>
+        </rdfs:domain>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jan/ontologies/2014/5/asthma#is -->
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/jan/ontologies/2014/5/asthma#is">
+        <rdfs:range>
+            <Restriction>
+                <onProperty rdf:resource="&owl;topObjectProperty"/>
+                <someValuesFrom rdf:resource="&owl;Thing"/>
+            </Restriction>
+        </rdfs:range>
+        <rdfs:domain>
+            <Restriction>
+                <onProperty rdf:resource="&owl;topObjectProperty"/>
+                <someValuesFrom rdf:resource="&owl;Thing"/>
+            </Restriction>
+        </rdfs:domain>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jan/ontologies/2014/5/asthma#lessEfective -->
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/jan/ontologies/2014/5/asthma#lessEfective">
+        <rdfs:range>
+            <Restriction>
+                <onProperty rdf:resource="&owl;topObjectProperty"/>
+                <someValuesFrom rdf:resource="&owl;Thing"/>
+            </Restriction>
+        </rdfs:range>
+        <rdfs:domain>
+            <Restriction>
+                <onProperty rdf:resource="&owl;topObjectProperty"/>
+                <someValuesFrom rdf:resource="http://www.semanticweb.org/jan/ontologies/2014/5/asthma#Drug"/>
+            </Restriction>
+        </rdfs:domain>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jan/ontologies/2014/5/asthma#likely -->
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/jan/ontologies/2014/5/asthma#likely">
+        <rdfs:range>
+            <Restriction>
+                <onProperty rdf:resource="&owl;topObjectProperty"/>
+                <someValuesFrom rdf:resource="&owl;Thing"/>
+            </Restriction>
+        </rdfs:range>
+        <rdfs:domain>
+            <Restriction>
+                <onProperty rdf:resource="&owl;topObjectProperty"/>
+                <someValuesFrom rdf:resource="http://www.semanticweb.org/jan/ontologies/2014/5/asthma#DiagnosisTest"/>
+            </Restriction>
+        </rdfs:domain>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jan/ontologies/2014/5/asthma#of -->
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/jan/ontologies/2014/5/asthma#of">
+        <rdfs:range>
+            <Restriction>
+                <onProperty rdf:resource="&owl;topObjectProperty"/>
+                <someValuesFrom rdf:resource="&owl;Thing"/>
+            </Restriction>
+        </rdfs:range>
+        <rdfs:domain>
+            <Restriction>
+                <onProperty rdf:resource="&owl;topObjectProperty"/>
+                <someValuesFrom rdf:resource="&owl;Thing"/>
+            </Restriction>
+        </rdfs:domain>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jan/ontologies/2014/5/asthma#recommend -->
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/jan/ontologies/2014/5/asthma#recommend">
+        <rdfs:domain>
+            <Restriction>
+                <onProperty rdf:resource="&owl;topObjectProperty"/>
+                <someValuesFrom rdf:resource="http://www.semanticweb.org/jan/ontologies/2014/5/asthma#DiagnosisTest"/>
+            </Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <Restriction>
+                <onProperty rdf:resource="&owl;topObjectProperty"/>
+                <someValuesFrom rdf:resource="&owl;Thing"/>
+            </Restriction>
+        </rdfs:range>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jan/ontologies/2014/5/asthma#require -->
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/jan/ontologies/2014/5/asthma#require">
+        <rdfs:range>
+            <Restriction>
+                <onProperty rdf:resource="&owl;topObjectProperty"/>
+                <someValuesFrom rdf:resource="&owl;Thing"/>
+            </Restriction>
+        </rdfs:range>
+        <rdfs:domain>
+            <Restriction>
+                <onProperty rdf:resource="&owl;topObjectProperty"/>
+                <someValuesFrom rdf:resource="&owl;Thing"/>
+            </Restriction>
+        </rdfs:domain>
+    </ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/jan/ontologies/2014/5/asthma#allergyName -->
+
+    <DatatypeProperty rdf:about="http://www.semanticweb.org/jan/ontologies/2014/5/asthma#allergyName">
+        <rdfs:range rdf:resource="&xsd;string"/>
+        <rdfs:domain>
+            <Restriction>
+                <onProperty rdf:resource="&owl;topObjectProperty"/>
+                <someValuesFrom rdf:resource="http://www.semanticweb.org/jan/ontologies/2014/5/asthma#Allergy"/>
+            </Restriction>
+        </rdfs:domain>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jan/ontologies/2014/5/asthma#allergyTestName -->
+
+    <DatatypeProperty rdf:about="http://www.semanticweb.org/jan/ontologies/2014/5/asthma#allergyTestName">
+        <rdfs:range rdf:resource="&xsd;string"/>
+        <rdfs:domain>
+            <Restriction>
+                <onProperty rdf:resource="&owl;topObjectProperty"/>
+                <someValuesFrom rdf:resource="http://www.semanticweb.org/jan/ontologies/2014/5/asthma#Allergy"/>
+            </Restriction>
+        </rdfs:domain>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jan/ontologies/2014/5/asthma#asthmaTerm -->
+
+    <DatatypeProperty rdf:about="http://www.semanticweb.org/jan/ontologies/2014/5/asthma#asthmaTerm">
+        <rdfs:range rdf:resource="&xsd;string"/>
+        <rdfs:domain>
+            <Restriction>
+                <onProperty rdf:resource="&owl;topObjectProperty"/>
+                <someValuesFrom rdf:resource="&owl;Thing"/>
+            </Restriction>
+        </rdfs:domain>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jan/ontologies/2014/5/asthma#classificationName -->
+
+    <DatatypeProperty rdf:about="http://www.semanticweb.org/jan/ontologies/2014/5/asthma#classificationName">
+        <rdfs:range rdf:resource="&xsd;string"/>
+        <rdfs:domain>
+            <Restriction>
+                <onProperty rdf:resource="&owl;topObjectProperty"/>
+                <someValuesFrom rdf:resource="http://www.semanticweb.org/jan/ontologies/2014/5/asthma#Classification"/>
+            </Restriction>
+        </rdfs:domain>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jan/ontologies/2014/5/asthma#daytimeSymptom -->
+
+    <DatatypeProperty rdf:about="http://www.semanticweb.org/jan/ontologies/2014/5/asthma#daytimeSymptom">
+        <rdfs:range rdf:resource="&xsd;string"/>
+        <rdfs:domain>
+            <Restriction>
+                <onProperty rdf:resource="&owl;topObjectProperty"/>
+                <someValuesFrom rdf:resource="http://www.semanticweb.org/jan/ontologies/2014/5/asthma#Classification"/>
+            </Restriction>
+        </rdfs:domain>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jan/ontologies/2014/5/asthma#description -->
+
+    <DatatypeProperty rdf:about="http://www.semanticweb.org/jan/ontologies/2014/5/asthma#description">
+        <rdfs:range rdf:resource="&xsd;string"/>
+        <rdfs:domain>
+            <Restriction>
+                <onProperty rdf:resource="&owl;topObjectProperty"/>
+                <someValuesFrom rdf:resource="&owl;Thing"/>
+            </Restriction>
+        </rdfs:domain>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jan/ontologies/2014/5/asthma#drugDescription -->
+
+    <DatatypeProperty rdf:about="http://www.semanticweb.org/jan/ontologies/2014/5/asthma#drugDescription">
+        <rdfs:range rdf:resource="&xsd;string"/>
+        <rdfs:domain>
+            <Restriction>
+                <onProperty rdf:resource="&owl;topObjectProperty"/>
+                <someValuesFrom rdf:resource="http://www.semanticweb.org/jan/ontologies/2014/5/asthma#Drug"/>
+            </Restriction>
+        </rdfs:domain>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jan/ontologies/2014/5/asthma#drugName -->
+
+    <DatatypeProperty rdf:about="http://www.semanticweb.org/jan/ontologies/2014/5/asthma#drugName">
+        <rdfs:range rdf:resource="&xsd;string"/>
+        <rdfs:domain>
+            <Restriction>
+                <onProperty rdf:resource="&owl;topObjectProperty"/>
+                <someValuesFrom rdf:resource="http://www.semanticweb.org/jan/ontologies/2014/5/asthma#Drug"/>
+            </Restriction>
+        </rdfs:domain>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jan/ontologies/2014/5/asthma#drugType -->
+
+    <DatatypeProperty rdf:about="http://www.semanticweb.org/jan/ontologies/2014/5/asthma#drugType">
+        <rdfs:range rdf:resource="&xsd;string"/>
+        <rdfs:domain>
+            <Restriction>
+                <onProperty rdf:resource="&owl;topObjectProperty"/>
+                <someValuesFrom rdf:resource="http://www.semanticweb.org/jan/ontologies/2014/5/asthma#Drug"/>
+            </Restriction>
+        </rdfs:domain>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jan/ontologies/2014/5/asthma#exacerbation -->
+
+    <DatatypeProperty rdf:about="http://www.semanticweb.org/jan/ontologies/2014/5/asthma#exacerbation">
+        <rdfs:range rdf:resource="&xsd;string"/>
+        <rdfs:domain>
+            <Restriction>
+                <onProperty rdf:resource="&owl;topObjectProperty"/>
+                <someValuesFrom rdf:resource="http://www.semanticweb.org/jan/ontologies/2014/5/asthma#Classification"/>
+            </Restriction>
+        </rdfs:domain>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jan/ontologies/2014/5/asthma#measuring_breath -->
+
+    <DatatypeProperty rdf:about="http://www.semanticweb.org/jan/ontologies/2014/5/asthma#measuring_breath">
+        <rdfs:range rdf:resource="&xsd;string"/>
+        <rdfs:domain>
+            <Restriction>
+                <onProperty rdf:resource="&owl;topObjectProperty"/>
+                <someValuesFrom rdf:resource="http://www.semanticweb.org/jan/ontologies/2014/5/asthma#Classification"/>
+            </Restriction>
+        </rdfs:domain>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jan/ontologies/2014/5/asthma#night-timeSymptom -->
+
+    <DatatypeProperty rdf:about="http://www.semanticweb.org/jan/ontologies/2014/5/asthma#night-timeSymptom">
+        <rdfs:range rdf:resource="&xsd;string"/>
+        <rdfs:domain>
+            <Restriction>
+                <onProperty rdf:resource="&owl;topObjectProperty"/>
+                <someValuesFrom rdf:resource="http://www.semanticweb.org/jan/ontologies/2014/5/asthma#Classification"/>
+            </Restriction>
+        </rdfs:domain>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jan/ontologies/2014/5/asthma#symptomDescription -->
+
+    <DatatypeProperty rdf:about="http://www.semanticweb.org/jan/ontologies/2014/5/asthma#symptomDescription">
+        <rdfs:range rdf:resource="&xsd;string"/>
+        <rdfs:domain>
+            <Restriction>
+                <onProperty rdf:resource="&owl;topObjectProperty"/>
+                <someValuesFrom rdf:resource="&owl;Thing"/>
+            </Restriction>
+        </rdfs:domain>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jan/ontologies/2014/5/asthma#symptomName -->
+
+    <DatatypeProperty rdf:about="http://www.semanticweb.org/jan/ontologies/2014/5/asthma#symptomName">
+        <rdfs:range rdf:resource="&xsd;string"/>
+        <rdfs:domain>
+            <Restriction>
+                <onProperty rdf:resource="&owl;topObjectProperty"/>
+                <someValuesFrom rdf:resource="&owl;Thing"/>
+            </Restriction>
+        </rdfs:domain>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jan/ontologies/2014/5/asthma#testName -->
+
+    <DatatypeProperty rdf:about="http://www.semanticweb.org/jan/ontologies/2014/5/asthma#testName">
+        <rdfs:range rdf:resource="&xsd;string"/>
+        <rdfs:domain>
+            <Restriction>
+                <onProperty rdf:resource="&owl;topObjectProperty"/>
+                <someValuesFrom rdf:resource="http://www.semanticweb.org/jan/ontologies/2014/5/asthma#DiagnosisTest"/>
+            </Restriction>
+        </rdfs:domain>
+    </DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/jan/ontologies/2014/5/asthma#Allergy -->
+
+    <Class rdf:about="http://www.semanticweb.org/jan/ontologies/2014/5/asthma#Allergy"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jan/ontologies/2014/5/asthma#Classification -->
+
+    <Class rdf:about="http://www.semanticweb.org/jan/ontologies/2014/5/asthma#Classification"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jan/ontologies/2014/5/asthma#DiagnosisTest -->
+
+    <Class rdf:about="http://www.semanticweb.org/jan/ontologies/2014/5/asthma#DiagnosisTest"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jan/ontologies/2014/5/asthma#Drug -->
+
+    <Class rdf:about="http://www.semanticweb.org/jan/ontologies/2014/5/asthma#Drug"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/jan/ontologies/2014/5/asthma#Allergy"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jan/ontologies/2014/5/asthma#Classification"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jan/ontologies/2014/5/asthma#DiagnosisTest"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jan/ontologies/2014/5/asthma#Drug"/>
+        </members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
