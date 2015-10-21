@@ -6,4 +6,4 @@ It has two classes and a MySQL database, this is the order to call them.
 (1)RDFModel.java
 (2)Match.java
 
-Also there are two ontologies, asthma.owl and evidence.owl
+Also we provide a capture knowledge ontology in this case the domain is adult asthma (asthma.owl), and the second is a knowledge ontology repository (evidence.owl).
