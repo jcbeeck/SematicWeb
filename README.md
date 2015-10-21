@@ -5,3 +5,5 @@ This is the source code of the project. It is based on two ontologies, one is fo
 It has two classes and a MySQL database, this is the order to call them.
 (1)RDFModel.java
 (2)Match.java
+
+Also there are two ontologies, asthma.owl and evidence.owl
