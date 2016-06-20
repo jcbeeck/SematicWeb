@@ -1,0 +1,367 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:j.0="http://purl.org/dc/terms/"
+    xmlns:j.1="http://www.semanticweb.org/jan/ontologies/2014/5/evidences#"
+    xmlns:owl="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:nodeID="A0">
+    <dc:identifier>9648699</dc:identifier>
+    <j.1:databaseName>Search MEDLINE/PubMed via PICO</j.1:databaseName>
+    <j.1:journalYear>1998</j.1:journalYear>
+    <j.1:evidenceURL>http://www.sciencedirect.com/science/article/pii/S0091674998703021</j.1:evidenceURL>
+    <j.0:creator>Shusterman DJ; Murphy MA; Balmes JR</j.0:creator>
+    <j.0:title>Subjects with seasonal allergic rhinitis and nonrhinitic subjects react differentially to nasal provocation with chlorine gas.</j.0:title>
+    <j.1:createDate>15/09/2014</j.1:createDate>
+    <j.1:queryIntervention>Allergy tests</j.1:queryIntervention>
+    <j.1:queryProblem>Nasal irritation</j.1:queryProblem>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A1">
+    <dc:identifier>9109952</dc:identifier>
+    <j.1:databaseName>Search MEDLINE/PubMed via PICO</j.1:databaseName>
+    <j.1:journalYear>1992</j.1:journalYear>
+    <j.1:evidenceURL>http://www.ncbi.nlm.nih.gov/pubmed?Db=pubmed&amp;Cmd=Retrieve&amp;list_uids=9109952&amp;dopt=abstractplus</j.1:evidenceURL>
+    <j.0:creator>Mair TS; Howarth S; Lane JG</j.0:creator>
+    <j.0:title>Evaluation of some prophylactic therapies for the idiopathic headshaker syndrome.</j.0:title>
+    <j.1:createDate>15/09/2014</j.1:createDate>
+    <j.1:queryIntervention>Inhaled nasal corticosteroids</j.1:queryIntervention>
+    <j.1:queryProblem>Nasal irritation</j.1:queryProblem>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A2">
+    <dc:identifier>7861879</dc:identifier>
+    <j.1:databaseName>Pedro physiotherapy evidence database</j.1:databaseName>
+    <j.1:evidenceURL>http://search.pedro.org.au/search-results/record-detail/25138</j.1:evidenceURL>
+    <j.1:journalYear>1995</j.1:journalYear>
+    <j.0:creator>Winkens RA, Pop P, Bugter-Maessen AM, Grol RP, Kester AD, Beusmans GH, Knottnerus JA</j.0:creator>
+    <j.0:title>Randomised controlled trial of routine individual feedback to improve rationality and reduce numbers of test requests</j.0:title>
+    <j.1:createDate>16/09/2014</j.1:createDate>
+    <j.1:queryString>Allergy tests</j.1:queryString>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A3">
+    <dc:identifier>23686815</dc:identifier>
+    <j.1:databaseName>Search MEDLINE/PubMed via PICO</j.1:databaseName>
+    <j.1:journalYear>2014</j.1:journalYear>
+    <j.1:evidenceURL>http://onlinelibrary.wiley.com/doi/10.1002/lary.24196/abstract</j.1:evidenceURL>
+    <j.0:creator>Chen FH; Zuo KJ; Guo YB; Li ZP; Xu G; Xu R; Shi JB</j.0:creator>
+    <j.0:title>Long-term results of endoscopic sinus surgery-oriented treatment for chronic rhinosinusitis with asthma.</j.0:title>
+    <j.1:createDate>15/09/2014</j.1:createDate>
+    <j.1:queryIntervention>Allergy tests</j.1:queryIntervention>
+    <j.1:queryProblem>Nasal polyps</j.1:queryProblem>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A4">
+    <dc:identifier>19160389</dc:identifier>
+    <j.1:databaseName>Search MEDLINE/PubMed via PICO</j.1:databaseName>
+    <j.1:journalYear>2009</j.1:journalYear>
+    <j.1:evidenceURL>http://onlinelibrary.wiley.com/doi/10.1002/lary.20075/abstract</j.1:evidenceURL>
+    <j.0:creator>Guilemany JM; García-Piñero A; Alobid I; Cardelús S; Centellas S; Bartra J; Valero A; Picado C; Mullol J</j.0:creator>
+    <j.0:title>Persistent allergic rhinitis has a moderate impact on the sense of smell, depending on both nasal congestion and inflammation.</j.0:title>
+    <j.1:createDate>15/09/2014</j.1:createDate>
+    <j.1:queryIntervention>Allergy tests</j.1:queryIntervention>
+    <j.1:queryProblem>Loss of sense of smell</j.1:queryProblem>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A5">
+    <dc:identifier>16510462</dc:identifier>
+    <j.1:databaseName>Search MEDLINE/PubMed via PICO</j.1:databaseName>
+    <j.1:journalYear>2006</j.1:journalYear>
+    <j.1:evidenceURL>http://erj.ersjournals.com/content/28/1/68.long</j.1:evidenceURL>
+    <j.0:creator>Ragab S; Scadding GK; Lund VJ; Saleh H</j.0:creator>
+    <j.0:title>Treatment of chronic rhinosinusitis and its effects on asthma.</j.0:title>
+    <j.1:createDate>15/09/2014</j.1:createDate>
+    <j.1:queryIntervention>Allergy tests</j.1:queryIntervention>
+    <j.1:queryProblem>Nasal polyps</j.1:queryProblem>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A6">
+    <dc:identifier>6394263</dc:identifier>
+    <j.1:databaseName>Search MEDLINE/PubMed via PICO</j.1:databaseName>
+    <j.1:journalYear>1984</j.1:journalYear>
+    <j.1:evidenceURL>http://www.ncbi.nlm.nih.gov/pubmed?Db=pubmed&amp;Cmd=Retrieve&amp;list_uids=6394263&amp;dopt=abstractplus</j.1:evidenceURL>
+    <j.0:creator>Clissold SP; Heel RC</j.0:creator>
+    <j.0:title>Budesonide. A preliminary review of its pharmacodynamic properties and therapeutic efficacy in asthma and rhinitis.</j.0:title>
+    <j.1:createDate>15/09/2014</j.1:createDate>
+    <j.1:queryIntervention>Inhaled nasal corticosteroids</j.1:queryIntervention>
+    <j.1:queryProblem>Nasal irritation</j.1:queryProblem>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A7">
+    <dc:identifier>21442078</dc:identifier>
+    <j.1:databaseName>Search MEDLINE/PubMed via PICO</j.1:databaseName>
+    <j.1:journalYear>2010</j.1:journalYear>
+    <j.1:evidenceURL>http://www.rhinologyjournal.com/abstract.php?id=918</j.1:evidenceURL>
+    <j.0:creator>Bilodeau L; Boulay ME; Prince P; Boisvert P; Boulet LP</j.0:creator>
+    <j.0:title>Comparative clinical and airway inflammatory features of asthmatics with or without polyps.</j.0:title>
+    <j.1:createDate>15/09/2014</j.1:createDate>
+    <j.1:queryIntervention>Allergy tests</j.1:queryIntervention>
+    <j.1:queryProblem>Nasal polyps</j.1:queryProblem>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A8">
+    <dc:identifier>2222351</dc:identifier>
+    <j.1:databaseName>Search MEDLINE/PubMed via PICO</j.1:databaseName>
+    <j.1:journalYear>1990</j.1:journalYear>
+    <j.1:evidenceURL>http://www.ncbi.nlm.nih.gov/pubmed?Db=pubmed&amp;Cmd=Retrieve&amp;list_uids=2222351&amp;dopt=abstractplus</j.1:evidenceURL>
+    <j.0:creator>Levi CR; Tyler GR; Olson LG; Saunders NA</j.0:creator>
+    <j.0:title>Lack of airway response to nasal irritation in normal and asthmatic subjects.</j.0:title>
+    <j.1:createDate>15/09/2014</j.1:createDate>
+    <j.1:queryIntervention>Allergy tests</j.1:queryIntervention>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A9">
+    <dc:identifier>22865728</dc:identifier>
+    <j.1:databaseName>Search MEDLINE/PubMed via PICO</j.1:databaseName>
+    <j.1:journalYear>2013</j.1:journalYear>
+    <j.1:evidenceURL>http://www.ncbi.nlm.nih.gov/pubmed?Db=pubmed&amp;Cmd=Retrieve&amp;list_uids=22865728&amp;dopt=abstractplus</j.1:evidenceURL>
+    <j.0:creator>Tam S; Duggal N; Rotenberg BW</j.0:creator>
+    <j.0:title>Olfactory outcomes following endoscopic pituitary surgery with or without septal flap reconstruction: a randomized controlled trial.</j.0:title>
+    <j.1:createDate>15/09/2014</j.1:createDate>
+    <j.1:queryIntervention>Allergy tests</j.1:queryIntervention>
+    <j.1:queryProblem>Loss of sense of smell</j.1:queryProblem>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A10">
+    <dc:identifier>17071293</dc:identifier>
+    <j.1:databaseName>Search MEDLINE/PubMed via PICO</j.1:databaseName>
+    <j.1:journalYear>2006</j.1:journalYear>
+    <j.1:evidenceURL>http://oto.sagepub.com/content/135/5/680.long</j.1:evidenceURL>
+    <j.0:creator>Collins MM; Loughran S; Davidson P; Wilson JA</j.0:creator>
+    <j.0:title>Nasal polyposis: prevalence of positive food and inhalant skin tests.</j.0:title>
+    <j.1:createDate>15/09/2014</j.1:createDate>
+    <j.1:queryIntervention>Allergy tests</j.1:queryIntervention>
+    <j.1:queryProblem>Nasal polyps</j.1:queryProblem>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A11">
+    <j.1:journalYear>1983</j.1:journalYear>
+    <dc:identifier>6344703</dc:identifier>
+    <j.1:databaseName>Search MEDLINE/PubMed via PICO</j.1:databaseName>
+    <j.1:evidenceURL>http://www.ncbi.nlm.nih.gov/pubmed?Db=pubmed&amp;Cmd=Retrieve&amp;list_uids=6344703&amp;dopt=abstractplus</j.1:evidenceURL>
+    <j.0:creator>Krouse HA; Phung ND; Klaustermeyer WB</j.0:creator>
+    <j.0:title>Intranasal beclomethasone in severe rhinosinusitis and nasal polyps.</j.0:title>
+    <j.1:createDate>15/09/2014</j.1:createDate>
+    <j.1:queryIntervention>Inhaled nasal corticosteroids</j.1:queryIntervention>
+    <j.1:queryProblem>Nasal polyps</j.1:queryProblem>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A12">
+    <dc:identifier>3052188</dc:identifier>
+    <j.1:databaseName>Search MEDLINE/PubMed via PICO</j.1:databaseName>
+    <j.1:journalYear>1988</j.1:journalYear>
+    <j.1:evidenceURL>http://www.ncbi.nlm.nih.gov/pubmed?Db=pubmed&amp;Cmd=Retrieve&amp;list_uids=3052188&amp;dopt=abstractplus</j.1:evidenceURL>
+    <j.0:creator>Greenbaum J; Leznoff A; Schulz J; Mazza J; Tobe A; Miller D</j.0:creator>
+    <j.0:title>Comparative tolerability of two formulations of Rhinalar (flunisolide) nasal spray in patients with seasonal allergic rhinitis.</j.0:title>
+    <j.1:createDate>15/09/2014</j.1:createDate>
+    <j.1:queryIntervention>Inhaled nasal corticosteroids</j.1:queryIntervention>
+    <j.1:queryProblem>Nasal irritation</j.1:queryProblem>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A13">
+    <dc:identifier>1958002</dc:identifier>
+    <j.1:databaseName>Search MEDLINE/PubMed via PICO</j.1:databaseName>
+    <j.1:journalYear>1991</j.1:journalYear>
+    <j.1:evidenceURL>http://www.ncbi.nlm.nih.gov/pubmed?Db=pubmed&amp;Cmd=Retrieve&amp;list_uids=1958002&amp;dopt=abstractplus</j.1:evidenceURL>
+    <j.0:creator>Welch MJ; Bronsky EA; Grossman J; Shapiro GG; Tinkelman DG; Garcia JD; Gillen MS</j.0:creator>
+    <j.0:title>Clinical evaluation of triamcinolone acetonide nasal aerosol in children with perennial allergic rhinitis.</j.0:title>
+    <j.1:createDate>15/09/2014</j.1:createDate>
+    <j.1:queryIntervention>Inhaled nasal corticosteroids</j.1:queryIntervention>
+    <j.1:queryProblem>Nasal irritation</j.1:queryProblem>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A14">
+    <j.1:journalYear>2006</j.1:journalYear>
+    <dc:identifier>16685542</dc:identifier>
+    <j.1:databaseName>Search MEDLINE/PubMed via PICO</j.1:databaseName>
+    <j.1:evidenceURL>http://link.springer.com/article/10.1007%2Fs00405-006-0061-7</j.1:evidenceURL>
+    <j.0:creator>Kroflic B; Coer A; Baudoin T; Kalogjera L</j.0:creator>
+    <j.0:title>Topical furosemide versus oral steroid in preoperative management of nasal polyposis.</j.0:title>
+    <j.1:createDate>15/09/2014</j.1:createDate>
+    <j.1:queryIntervention>Inhaled nasal corticosteroids</j.1:queryIntervention>
+    <j.1:queryProblem>Nasal polyps</j.1:queryProblem>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A15">
+    <dc:identifier>20154454</dc:identifier>
+    <j.1:databaseName>Search MEDLINE/PubMed via PICO</j.1:databaseName>
+    <j.1:journalYear>2010</j.1:journalYear>
+    <j.1:evidenceURL>https://www.jstage.jst.go.jp/article/jnms/77/1/77_1_21/_article</j.1:evidenceURL>
+    <j.0:creator>Nonaka M; Sakanushi A; Kusama K; Ogihara N; Yagi T</j.0:creator>
+    <j.0:title>One-year evaluation of combined treatment with an intranasal corticosteroid and montelukast for chronic rhinosinusitis associated with asthma.</j.0:title>
+    <j.1:createDate>15/09/2014</j.1:createDate>
+    <j.1:queryIntervention>Inhaled nasal corticosteroids</j.1:queryIntervention>
+    <j.1:queryProblem>Nasal polyps</j.1:queryProblem>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A16">
+    <dc:identifier>9215245</dc:identifier>
+    <j.1:databaseName>Pedro physiotherapy evidence database</j.1:databaseName>
+    <j.1:evidenceURL>http://search.pedro.org.au/search-results/record-detail/4265</j.1:evidenceURL>
+    <j.1:journalYear>1997</j.1:journalYear>
+    <j.0:creator>Agertoft L, Pedersen S</j.0:creator>
+    <j.0:title>A randomized, double-blind dose reduction study to compare the minimal effective dose of budesonide Turbuhaler and fluticasone propionate Diskhaler</j.0:title>
+    <j.1:createDate>16/09/2014</j.1:createDate>
+    <j.1:queryString>Allergy tests</j.1:queryString>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A17">
+    <dc:identifier>15788375</dc:identifier>
+    <j.1:databaseName>Search MEDLINE/PubMed via PICO</j.1:databaseName>
+    <j.1:journalYear>2005</j.1:journalYear>
+    <j.1:evidenceURL>http://informahealthcare.com/doi/abs/10.1080/08958370590904508%20</j.1:evidenceURL>
+    <j.0:creator>Shusterman D; Tarun A; Murphy MA; Morris J</j.0:creator>
+    <j.0:title> Seasonal allergic rhinitic and normal subjects respond differentially to nasal provocation with acetic acid vapor.</j.0:title>
+    <j.1:createDate>15/09/2014</j.1:createDate>
+    <j.1:queryIntervention>Allergy tests</j.1:queryIntervention>
+    <j.1:queryProblem>Nasal irritation</j.1:queryProblem>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A18">
+    <dc:identifier>11703217</dc:identifier>
+    <j.1:databaseName>Pedro physiotherapy evidence database</j.1:databaseName>
+    <j.1:evidenceURL>http://search.pedro.org.au/search-results/record-detail/33311</j.1:evidenceURL>
+    <j.1:journalYear>2001</j.1:journalYear>
+    <j.0:creator>Ringsberg KC, Timpka T</j.0:creator>
+    <j.0:title>Clinical health education for patients with asthma-like symptoms but negative asthma tests</j.0:title>
+    <j.1:createDate>16/09/2014</j.1:createDate>
+    <j.1:queryString>Allergy tests</j.1:queryString>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A19">
+    <dc:identifier>9177615</dc:identifier>
+    <j.1:databaseName>Search MEDLINE/PubMed via PICO</j.1:databaseName>
+    <j.1:journalYear>1996</j.1:journalYear>
+    <j.1:evidenceURL>http://www.ncbi.nlm.nih.gov/pubmed?Db=pubmed&amp;Cmd=Retrieve&amp;list_uids=9177615&amp;dopt=abstractplus</j.1:evidenceURL>
+    <j.0:creator>Paparo BS; Leri O; Andreoli P; Arcai Chirra A; Casagrande M; Addessi MA; Sagnelli P; De Rosa FG; Sagnelli M</j.0:creator>
+    <j.0:title>Allergic rhinitis, olfactory disorders and secretory IgA.</j.0:title>
+    <j.1:createDate>15/09/2014</j.1:createDate>
+    <j.1:queryIntervention>Allergy tests</j.1:queryIntervention>
+    <j.1:queryProblem>Loss of sense of smell</j.1:queryProblem>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A20">
+    <dc:identifier>10569465</dc:identifier>
+    <j.1:databaseName>Search MEDLINE/PubMed via PICO</j.1:databaseName>
+    <j.1:journalYear>1999</j.1:journalYear>
+    <j.1:evidenceURL>http://www.sjweh.fi/show_abstract.php?abstract_id=458</j.1:evidenceURL>
+    <j.0:creator>Hauschildt P; Mølhave L; Kjaergaard SK</j.0:creator>
+    <j.0:title>Reactions of healthy persons and persons suffering from allergic rhinitis when exposed to office dust.</j.0:title>
+    <j.1:createDate>15/09/2014</j.1:createDate>
+    <j.1:queryIntervention>Allergy tests</j.1:queryIntervention>
+    <j.1:queryProblem>Nasal irritation</j.1:queryProblem>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A21">
+    <dc:identifier>1102148</dc:identifier>
+    <j.1:databaseName>Search MEDLINE/PubMed via PICO</j.1:databaseName>
+    <j.1:journalYear>1975</j.1:journalYear>
+    <j.1:evidenceURL>http://www.ncbi.nlm.nih.gov/pubmed?Db=pubmed&amp;Cmd=Retrieve&amp;list_uids=1102148&amp;dopt=abstractplus</j.1:evidenceURL>
+    <j.0:creator>Archer GJ; Thomas AK; Harding SM</j.0:creator>
+    <j.0:title>Intranasal betamethasone valerate in the treatment of seasonal rhinitis.</j.0:title>
+    <j.1:createDate>15/09/2014</j.1:createDate>
+    <j.1:queryIntervention>Allergy tests</j.1:queryIntervention>
+    <j.1:queryProblem>Nasal irritation</j.1:queryProblem>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A22">
+    <dc:identifier>2813924</dc:identifier>
+    <j.1:databaseName>Search MEDLINE/PubMed via PICO</j.1:databaseName>
+    <j.1:journalYear>1989</j.1:journalYear>
+    <j.1:evidenceURL>http://www.ncbi.nlm.nih.gov/pubmed?Db=pubmed&amp;Cmd=Retrieve&amp;list_uids=2813924&amp;dopt=abstractplus</j.1:evidenceURL>
+    <j.0:creator>Pacor ML; Santoni P; Nicolis F; Peroli P; Biasi D; Cortina P; Marchi G; Lunardi C</j.0:creator>
+    <j.0:title>Nasal polyps and food intolerance: is there any correlation</j.0:title>
+    <j.1:createDate>15/09/2014</j.1:createDate>
+    <j.1:queryIntervention>Allergy tests</j.1:queryIntervention>
+    <j.1:queryProblem>Nasal polyps</j.1:queryProblem>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A23">
+    <dc:identifier>19191775</dc:identifier>
+    <j.1:databaseName>Search MEDLINE/PubMed via PICO</j.1:databaseName>
+    <j.1:journalYear>2009</j.1:journalYear>
+    <j.1:evidenceURL>http://onlinelibrary.wiley.com/doi/10.1111/j.1398-9995.2008.01870.x/abstract</j.1:evidenceURL>
+    <j.0:creator>Ehnhage A; Olsson P; Kölbeck KG; Skedinger M; Dahlén B; Alenius M; Stjärne P;</j.0:creator>
+    <j.0:title>Functional endoscopic sinus surgery improved asthma symptoms as well as PEFR and olfaction in patients with nasal polyposis.</j.0:title>
+    <j.1:createDate>15/09/2014</j.1:createDate>
+    <j.1:queryIntervention>Allergy tests</j.1:queryIntervention>
+    <j.1:queryProblem>Loss of sense of smell</j.1:queryProblem>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A24">
+    <dc:identifier>22287580</dc:identifier>
+    <j.1:databaseName>Search MEDLINE/PubMed via PICO</j.1:databaseName>
+    <j.1:journalYear>2012</j.1:journalYear>
+    <j.1:evidenceURL>http://oto.sagepub.com/content/146/5/834.long</j.1:evidenceURL>
+    <j.0:creator>Ehnhage A; Olsson P; Kölbeck KG; Skedinger M; Stjärne P;</j.0:creator>
+    <j.0:title>One year after endoscopic sinus surgery in polyposis: asthma, olfaction, and quality-of-life outcomes.</j.0:title>
+    <j.1:createDate>15/09/2014</j.1:createDate>
+    <j.1:queryIntervention>Allergy tests</j.1:queryIntervention>
+    <j.1:queryProblem>Nasal polyps</j.1:queryProblem>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A25">
+    <dc:identifier>6771116</dc:identifier>
+    <j.1:databaseName>Search MEDLINE/PubMed via PICO</j.1:databaseName>
+    <j.1:journalYear>1980</j.1:journalYear>
+    <j.1:evidenceURL>http://www.ncbi.nlm.nih.gov/pubmed?Db=pubmed&amp;Cmd=Retrieve&amp;list_uids=6771116&amp;dopt=abstractplus</j.1:evidenceURL>
+    <j.0:creator>Pakes GE; Brogden RN; Heel RD; Speight TM; Avery GS</j.0:creator>
+    <j.0:title> Flunisolide: a review of its pharmacological properties and therapeutic efficacy in rhinitis.</j.0:title>
+    <j.1:createDate>15/09/2014</j.1:createDate>
+    <j.1:queryIntervention>Inhaled nasal corticosteroids</j.1:queryIntervention>
+    <j.1:queryProblem>Nasal irritation</j.1:queryProblem>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A26">
+    <j.1:queryProblem>Nasal irritation</j.1:queryProblem>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A27">
+    <j.1:journalYear>2010</j.1:journalYear>
+    <dc:identifier>20816546</dc:identifier>
+    <j.1:databaseName>Pedro physiotherapy evidence database</j.1:databaseName>
+    <j.1:evidenceURL>http://search.pedro.org.au/search-results/record-detail/40008</j.1:evidenceURL>
+    <j.0:creator>Abernethy AP, McDonald CF, Frith PA, Clark K, Herndon JE, II, Marcello J, Young IH, Bull J, Wilcock A, Booth S, Wheeler JL, Tulsky JA, Crockett AJ, Currow DC</j.0:creator>
+    <j.0:title>Effect of palliative oxygen versus room air in relief of breathlessness in patients with refractory dyspnoea: a double-blind, randomised controlled trial</j.0:title>
+    <j.1:createDate>16/09/2014</j.1:createDate>
+    <j.1:queryString>Nasal irritation</j.1:queryString>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A28">
+    <dc:identifier>2244675</dc:identifier>
+    <j.1:databaseName>Search MEDLINE/PubMed via PICO</j.1:databaseName>
+    <j.1:journalYear>1990</j.1:journalYear>
+    <j.1:evidenceURL>http://www.ncbi.nlm.nih.gov/pubmed?Db=pubmed&amp;Cmd=Retrieve&amp;list_uids=2244675&amp;dopt=abstractplus</j.1:evidenceURL>
+    <j.0:creator>Pedersen B; Dahl R; Lindqvist N; Mygind N</j.0:creator>
+    <j.0:title>Nasal inhalation of the glucocorticoid budesonide from a spacer for the treatment of patients with pollen rhinitis and asthma.</j.0:title>
+    <j.1:createDate>15/09/2014</j.1:createDate>
+    <j.1:queryIntervention>Inhaled nasal corticosteroids</j.1:queryIntervention>
+    <j.1:queryProblem>Nasal irritation</j.1:queryProblem>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A29">
+    <dc:identifier>22730816</dc:identifier>
+    <j.1:databaseName>Search MEDLINE/PubMed via PICO</j.1:databaseName>
+    <j.1:journalYear>2012</j.1:journalYear>
+    <j.1:evidenceURL>http://www.ncbi.nlm.nih.gov/pubmed?Db=pubmed&amp;Cmd=Retrieve&amp;list_uids=22730816&amp;dopt=abstractplus</j.1:evidenceURL>
+    <j.0:creator>Wang C; Lou H; Lou W; Zhang L</j.0:creator>
+    <j.0:title>The efficacy and safety of a short course of budesonide inhalation suspension via transnasal nebulization in chronic rhinosinusitis with nasal polyps</j.0:title>
+    <j.1:createDate>15/09/2014</j.1:createDate>
+    <j.1:queryIntervention>Inhaled nasal corticosteroids</j.1:queryIntervention>
+    <j.1:queryProblem>Nasal polyps</j.1:queryProblem>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A30">
+    <j.1:journalYear>2008</j.1:journalYear>
+    <dc:identifier>18984264</dc:identifier>
+    <j.1:databaseName>Search MEDLINE/PubMed via PICO</j.1:databaseName>
+    <j.1:evidenceURL>http://www.ncbi.nlm.nih.gov/pubmed?Db=pubmed&amp;Cmd=Retrieve&amp;list_uids=18984264&amp;dopt=abstractplus</j.1:evidenceURL>
+    <j.0:creator>Stewart RA; Ram B; Hamilton G; Weiner J; Kane KJ</j.0:creator>
+    <j.0:title> Montelukast as an adjunct to oral and inhaled steroid therapy in chronic nasal polyposis.</j.0:title>
+    <j.1:createDate>15/09/2014</j.1:createDate>
+    <j.1:queryIntervention>Inhaled nasal corticosteroids</j.1:queryIntervention>
+    <j.1:queryProblem>Nasal polyps</j.1:queryProblem>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A31">
+    <j.1:journalYear>1997</j.1:journalYear>
+    <dc:identifier> 9193219</dc:identifier>
+    <j.1:databaseName>Search MEDLINE/PubMed via PICO</j.1:databaseName>
+    <j.1:evidenceURL>http://archotol.jamanetwork.com/article.aspx?articleid=624174</j.1:evidenceURL>
+    <j.0:creator>Lildholdt T; Rundcrantz H; Bende M; Larsen K</j.0:creator>
+    <j.0:title> Glucocorticoid treatment for nasal polyps. The use of topical budesonide powder, intramuscular betamethasone, and surgical treatment.</j.0:title>
+    <j.1:createDate>15/09/2014</j.1:createDate>
+    <j.1:queryIntervention>Inhaled nasal corticosteroids</j.1:queryIntervention>
+    <j.1:queryProblem>Nasal polyps</j.1:queryProblem>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A32">
+    <dc:identifier>22192144</dc:identifier>
+    <j.1:databaseName>Search MEDLINE/PubMed via PICO</j.1:databaseName>
+    <j.1:journalYear>2012</j.1:journalYear>
+    <j.1:evidenceURL>http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2222.2011.03921.x/abstract;jsessionid=BB8CA8AA8A9F6BD499ACAF2AFEF37BAE.f03t03</j.1:evidenceURL>
+    <j.0:creator>Virtala R; Ekman AK; Jansson L; Westin U; Cardell LO</j.0:creator>
+    <j.0:title>Airway inflammation evaluated in a human nasal lipopolysaccharide challenge model by investigating the effect of a CXCR2 inhibitor.</j.0:title>
+    <j.1:createDate>15/09/2014</j.1:createDate>
+    <j.1:queryIntervention>Allergy tests</j.1:queryIntervention>
+    <j.1:queryProblem>Nasal irritation</j.1:queryProblem>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A33">
+    <dc:identifier>17301436</dc:identifier>
+    <j.1:databaseName>Pedro physiotherapy evidence database</j.1:databaseName>
+    <j.1:evidenceURL>http://search.pedro.org.au/search-results/record-detail/17736</j.1:evidenceURL>
+    <j.1:journalYear>2005</j.1:journalYear>
+    <j.0:creator>Farid R, Jabbari Azad F, Ebrahimi Atri A, Baradaran Rahimi M, Khaledan A, Talaei-Khoei M, Ghafari J, Ghasemi R</j.0:creator>
+    <j.0:title>Effect of aerobic exercise training on pulmonary function and tolerance of activity in asthmatic patients</j.0:title>
+    <j.1:createDate>16/09/2014</j.1:createDate>
+    <j.1:queryString>Allergy tests</j.1:queryString>
+  </rdf:Description>
+</rdf:RDF>

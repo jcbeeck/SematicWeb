@@ -1,0 +1,146 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://www.semanticweb.org/jan/ontologies/2014/5/asthma#"
+    xmlns:owl="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:nodeID="A0">
+    <j.0:aka>SPT</j.0:aka>
+    <j.0:allergyTestName>Radioallergosorbent</j.0:allergyTestName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A1">
+    <j.0:symptomDescription>Changes in temperatures</j.0:symptomDescription>
+    <j.0:symptomDescription>Clear watery nasal drainage</j.0:symptomDescription>
+    <j.0:symptomName>Vasomotor rhinitis</j.0:symptomName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A2">
+    <j.0:asthmaTerm>Persistent asthma</j.0:asthmaTerm>
+    <j.0:description>Patients1</j.0:description>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A3">
+    <j.0:symptomDescription>Eye symptoms</j.0:symptomDescription>
+    <j.0:symptomDescription>Watery rhinorrhoea</j.0:symptomDescription>
+    <j.0:symptomDescription>Nasal irritation</j.0:symptomDescription>
+    <j.0:symptomDescription>Itching</j.0:symptomDescription>
+    <j.0:symptomName>Classical symptoms</j.0:symptomName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A4">
+    <j.0:has>Patients3</j.0:has>
+    <j.0:has>Patients2</j.0:has>
+    <j.0:has>Patients1</j.0:has>
+    <j.0:has>Group of adults with asthma</j.0:has>
+    <j.0:asthmaTerm>Adult asthma</j.0:asthmaTerm>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A5">
+    <j.0:problemName>http://www.semanticweb.org/jan/ontologies/2014/5/asthma#allergyName</j.0:problemName>
+    <j.0:problemName>http://www.semanticweb.org/jan/ontologies/2014/5/asthma#symptomDescription</j.0:problemName>
+    <j.0:problemName>http://www.semanticweb.org/jan/ontologies/2014/5/asthma#symptomName</j.0:problemName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A6">
+    <j.0:symptomDescription>Loss of sense of smell</j.0:symptomDescription>
+    <j.0:symptomDescription>Congestion</j.0:symptomDescription>
+    <j.0:symptomName>Nasal polyps</j.0:symptomName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A7">
+    <j.0:testName>Future tests</j.0:testName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A8">
+    <j.0:asthmaTerm>Regular preventer therapy</j.0:asthmaTerm>
+    <j.0:description>Patients2</j.0:description>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A9">
+    <j.0:focus>Spirometry</j.0:focus>
+    <j.0:focus>Ears</j.0:focus>
+    <j.0:focus>Eyes</j.0:focus>
+    <j.0:focus>Throat</j.0:focus>
+    <j.0:focus>Nose</j.0:focus>
+    <j.0:description>Physical examination</j.0:description>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A10">
+    <j.0:of>Occupation</j.0:of>
+    <j.0:of>Environment</j.0:of>
+    <j.0:of>Allergic conditions</j.0:of>
+    <j.0:description>Family and personal information history</j.0:description>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A11">
+    <j.0:asthmaTerm>Allergic rhinitis</j.0:asthmaTerm>
+    <j.0:description>Patients3</j.0:description>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A12">
+    <j.0:require>A need to exclude other conditions such as pneumonia</j.0:require>
+    <j.0:require>Symptoms not explained by asthma</j.0:require>
+    <j.0:require>If diagnosis is uncertain</j.0:require>
+    <j.0:testName>Chest x-ray</j.0:testName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A13">
+    <j.0:interventionDescription>Salbutamol</j.0:interventionDescription>
+    <j.0:interventionDescription>RAST</j.0:interventionDescription>
+    <j.0:interventionDescription>Radioallergosorb</j.0:interventionDescription>
+    <j.0:interventionDescription>Ipratropium bromide</j.0:interventionDescription>
+    <j.0:interventionDescription>Anticholinergic sprays</j.0:interventionDescription>
+    <j.0:interventionDescription>Antihistamines</j.0:interventionDescription>
+    <j.0:interventionDescription>INCS</j.0:interventionDescription>
+    <j.0:interventionDescription>Inhaled nasal corticosteroids</j.0:interventionDescription>
+    <j.0:interventionName>Drug Intervention</j.0:interventionName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A14">
+    <j.0:develop>Asthma</j.0:develop>
+    <j.0:description>Risk factor</j.0:description>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A15">
+    <j.0:lessEfective>Antihistamines</j.0:lessEfective>
+    <j.0:asthmaTerm>INCS</j.0:asthmaTerm>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A16">
+    <j.0:is>Ipratropium bromide</j.0:is>
+    <j.0:asthmaTerm>Anticholinergic sprays</j.0:asthmaTerm>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A17">
+    <j.0:has>Classical symptoms</j.0:has>
+    <j.0:diagnosis>Physical examination</j.0:diagnosis>
+    <j.0:diagnosis>Family and personal information history</j.0:diagnosis>
+    <j.0:diagnosis>Allery investigation</j.0:diagnosis>
+    <j.0:is>Risk factor</j.0:is>
+    <j.0:avoid>Oral corticosteroids</j.0:avoid>
+    <j.0:co-exist>With asthma</j.0:co-exist>
+    <j.0:has>Drug therapy1</j.0:has>
+    <j.0:allergyName>Allergic rhinitis</j.0:allergyName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A18">
+    <j.0:symptomDescription>Purulent nasal drainage</j.0:symptomDescription>
+    <j.0:symptomName>Bacterial infection</j.0:symptomName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A19">
+    <j.0:recommend>Patients3</j.0:recommend>
+    <j.0:recommend>Patients2</j.0:recommend>
+    <j.0:recommend>Patients1</j.0:recommend>
+    <j.0:allergyTestName>Radioallergosorbent</j.0:allergyTestName>
+    <j.0:allergyTestName>Allergy skin prick tests</j.0:allergyTestName>
+    <j.0:consider>Asthma diagnosis is made</j.0:consider>
+    <j.0:testName>Allergy tests</j.0:testName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A20">
+    <j.0:allergyName>Allergic rhinitis</j.0:allergyName>
+    <j.0:allergyName>Vasomotor rhinitis</j.0:allergyName>
+    <j.0:allergyName>Bacterial infection</j.0:allergyName>
+    <j.0:allergyName>Nasal polyps</j.0:allergyName>
+    <j.0:asthmaTerm>Allergy</j.0:asthmaTerm>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A21">
+    <j.0:aka>SPT</j.0:aka>
+    <j.0:allergyTestName>Allergy skin prick tests</j.0:allergyTestName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A22">
+    <j.0:require>The person has not benefited from asthma treatment</j.0:require>
+    <j.0:include>Methacholine</j.0:include>
+    <j.0:include>Histamine</j.0:include>
+    <j.0:include>Mannitol</j.0:include>
+    <j.0:require>The diagnosis is uncertain</j.0:require>
+    <j.0:require>Occupational asthma is suspected</j.0:require>
+    <j.0:include>Hypertonic saline</j.0:include>
+    <j.0:include>Dry air</j.0:include>
+    <j.0:testName>Challenge tests</j.0:testName>
+    <j.0:include>The person has not benefited from asthma treatment</j.0:include>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A23">
+    <j.0:testName>Spirometry</j.0:testName>
+  </rdf:Description>
+</rdf:RDF>
