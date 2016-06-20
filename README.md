@@ -10,7 +10,13 @@ It has two classes and a MySQL database, this is the order to call them.
 
 Also we provide a capture knowledge ontology in this case the domain is adult asthma (asthma.owl), and the second is a knowledge ontology repository (evidence.owl).
 
-https://github.com/jcbeeck/SematicWeb/issues/2
+![asthma_uml](https://cloud.githubusercontent.com/assets/8194215/16206468/3d26c894-36ee-11e6-85b3-34353d32f840.png)
+
+Asthma ontology, knowledge capture.
+
+![evidence_uml](https://cloud.githubusercontent.com/assets/8194215/16206472/3eda832e-36ee-11e6-97a3-bf099fd5da57.png)
+
+Evidence ontology, structure of two evidence databases.
 
 Notes:
  - An ontology is an explicit specification of a conceptualization, which is the collection
