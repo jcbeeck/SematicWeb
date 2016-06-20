@@ -1,14 +1,14 @@
 # SematicWeb
 Project: Using ontologies to retrieve evidences from clinical notes.
 
-Specification: match words of clinical notes with its evidences.
+Specification: match words/tokens of clinical notes with its related evidences.
 
 This is the source code of the project. It is based on two ontologies, one is for adult asthma and the other is the structure of two evidence databases.
 It has two classes and a MySQL database, this is the order to call them.
 (1)RDFModel.java
 (2)Match.java
 
-Also we provide a capture knowledge ontology in this case the domain is adult asthma (asthma.owl), and the second is a knowledge ontology repository (evidence.owl).
+We provide a capture knowledge ontology in this case the domain is adult asthma (asthma.owl) and its repository asthma.rdf, and the second is a knowledge ontology repository (evidence.owl) with its repository evidences.rdf, also there is an example of an input in a clinical note (case1.txt).
 
 ![asthma_uml](https://cloud.githubusercontent.com/assets/8194215/16206468/3d26c894-36ee-11e6-85b3-34353d32f840.png)
 
