@@ -16,7 +16,7 @@ Asthma ontology, knowledge capture.
 
 ![evidence_uml](https://cloud.githubusercontent.com/assets/8194215/16206472/3eda832e-36ee-11e6-97a3-bf099fd5da57.png)
 
-Evidence ontology, structure of two evidence databases.
+Evidence ontology, structure of an evidence database.
 
 Notes:
  - An ontology is an explicit specification of a conceptualization, which is the collection
