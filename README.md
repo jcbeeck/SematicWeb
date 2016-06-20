@@ -18,6 +18,10 @@ Asthma ontology, knowledge capture.
 
 Evidence ontology, structure of an evidence database.
 
+![ed](https://cloud.githubusercontent.com/assets/8194215/16206909/3cbc4aee-36f0-11e6-9b96-999686e42448.png)
+
+Model entity-relationship diagram.
+
 Notes:
  - An ontology is an explicit specification of a conceptualization, which is the collection
 of objects, concepts, and other entities that are presumed to exist in some area of interest and
