@@ -10,6 +10,9 @@ It has two classes and a MySQL database, this is the order to call them.
 
 Also we provide a capture knowledge ontology in this case the domain is adult asthma (asthma.owl), and the second is a knowledge ontology repository (evidence.owl).
 
+/home/crowbe/Downloads/repapersfortheupdate/asthma_uml.png
+/home/crowbe/Downloads/repapersfortheupdate/evidence_uml.png
+
 Notes:
  - An ontology is an explicit specification of a conceptualization, which is the collection
 of objects, concepts, and other entities that are presumed to exist in some area of interest and
