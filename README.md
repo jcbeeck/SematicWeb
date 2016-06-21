@@ -10,6 +10,10 @@ It has two classes and a MySQL database, this is the order to call them.
 
 We provide a capture knowledge ontology in this case the domain is adult asthma (asthma.owl) and its repository asthma.rdf, and the second is a knowledge ontology repository (evidence.owl) with its repository evidences.rdf, also there is an example of an input in a clinical note (case1.txt).
 
+Usage: 
+ - RDFModel.java creates an RDF from the specification of an ontology (owl document) with the raw data defined in a MySQL DB. 
+ - The Match.java reads an input text, tokenize and retrieve the matched words through SPARQL queries (based on the ontologies) in the RDFs.
+
 ![asthma_uml](https://cloud.githubusercontent.com/assets/8194215/16206468/3d26c894-36ee-11e6-85b3-34353d32f840.png)
 
 Asthma ontology, knowledge capture.
