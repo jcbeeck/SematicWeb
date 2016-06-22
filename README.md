@@ -3,7 +3,7 @@ Project: Using ontologies to retrieve evidences from clinical notes.
 
 Goal: match the words/tokens of clinical notes with its related evidences.
 
-This is the source code of the project (ontology-driven system). It is based on two ontologies, one is for adult asthma and the other is the structure of two evidence databases.
+This is the source code of the project, it is an ontology-driven system based on two ontologies, one is for adult asthma and the other is the structure of two evidence databases.
 It has two classes and a MySQL database, this is the order to call them.
 (1)RDFModel.java
 (2)Match.java
