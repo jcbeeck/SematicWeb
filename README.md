@@ -3,12 +3,12 @@ Project: Using ontologies to retrieve evidences from clinical notes.
 
 Goal: match the words/tokens of clinical notes with its related evidences.
 
-This is the source code of the project, it is an ontology-driven system based on two ontologies, one is for adult asthma and the other is the structure of two evidence databases.
+This is the source code of the project, its an ontology-driven system based on two ontologies, one is for adult asthma and the other is the structure of two evidence databases.
 It has two classes and a MySQL database, this is the order to call them.
 (1)RDFModel.java
 (2)Match.java
 
-We provide a capture knowledge ontology in this case the domain is adult asthma (asthma.owl) and its repository asthma.rdf, and the second is a knowledge ontology repository (evidence.owl) with its repository evidences.rdf, also there is an example of an input in a clinical note (case1.txt).
+We provide a capture knowledge ontology in this case the domain is adult asthma (asthma.owl) and its repository asthma.rdf, and the second is a knowledge ontology repository (evidence.owl) with its repository evidences.rdf, also there is an example of a clinical note input (case1.txt).
 
 Usage: 
  - RDFModel.java creates an RDF from the specification of an ontology (owl document) with the raw data defined in a MySQL DB. 
